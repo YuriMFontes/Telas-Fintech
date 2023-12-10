@@ -136,7 +136,7 @@
 
     /* Formatação de recebimentos e despesas */
 
-    .move {
+    .reci {
         width: 60%;
         height: 50px;
         border: 2px solid var(--bg-color-black);
@@ -147,13 +147,40 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-    }
-    
-    .move i{
-        position: relative;
+        padding: 2%;
     }
 
-    .move h3{
-        font-size: 1.5rem;
+    .reci h3{
+        font-size: 3.5vw;
+    }
+
+    /* Formatação do move */
+
+    .move{
+        border-top: 2px solid var(--bg-color-black);
+        border-bottom: 2px solid var(--bg-color-black);
+        position: relative;
+        top: 3%;
+    }
+    
+    /* Formatação da div dos alimentos, pix! */
+
+    .food{
+        height: 170px;
+        position: relative;
+        top: 3%;
+        display: flex;
+    }
+
+    .food div{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: 2px solid black;
+        text-align: center;
+    }
+    
+    .food i{
+        font-size: 0.6rem;
     }
 }
