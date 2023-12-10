@@ -126,10 +126,19 @@
 
     /* Formatação dos textos dentro dos box */
 
-    #tools h3{
+    #tools a{
         font-size: 0.8rem;
         font-weight: bold;
         margin: 0;
+        text-decoration: none;
+        color: var(--bg-color-black);
     }
 
+    /* Formatação de recebimentos e despesas */
+
+    .move{
+        width: 50%;
+        height: auto;
+        background-color: black;
+    }
 }
