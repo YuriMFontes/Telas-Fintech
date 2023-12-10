@@ -1,0 +1,134 @@
+
+/* Formatação smartphone 425px */
+
+@media(max-width: 425px){
+
+    /* Formatação do cabeçalho */
+
+    #up{
+        display: flex;
+        align-items: center;
+    }
+    
+    #up div{
+        width: 15vw;
+        height: 15vw;
+        max-height: 80px;
+        max-width: 80px;
+        border-radius: 50%;
+        background-color: var(--bg-color-gray);
+        margin: 5%;
+    }
+    
+    #up i{
+        font-size: 10vw;
+        margin: 15%;
+    }
+    
+    #up h2{
+        margin: 0;
+        font-size: 2rem;
+        color: var(--bg-color-white);
+        font-weight: 300;
+    }
+    
+    /* Formatação da div saldo */
+    
+    .valor{
+        width: 85%;
+        height: 55px;
+        background-color: transparent;
+        border-radius: 20px;
+        border: 3px solid var(--bg-color-black);
+        margin: 1% 7%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 35px;
+    }
+
+    .valor div{
+        width: auto;
+        padding: 0 5px;
+        background-color: var(--bg-color-pink);
+        left: 5%;
+        bottom: 53%;
+        position: relative;
+        text-align: center;
+    }
+
+    .valor h2{
+        position: relative;
+        right: 20%;
+    }
+
+    .valor p{
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .valor i{
+        font-size: 2rem;
+        position: relative;
+        right: 3%;
+    }
+    
+    /* Formatação para div branca */
+
+    #tools{
+        height: auto;
+        background-color: var(--bg-color-white);
+        border-radius: 30px;
+    }
+    
+    /* Formatação do container dentro da div branca */
+
+    .container{
+        background-color: transparent;
+        border-radius: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border: 2px solid var(--bg-color-black);
+        margin: 1% 5%;
+    }
+
+    /* Formatação do texto ferramenta */
+
+    #tools h2{
+        text-align: center;
+        font-size: 2rem;
+        align-items: center;
+        padding: 4% 0% 2%;
+    }
+
+    /* Formatação das box dentro do container */
+
+    .box{
+        height: 60px;
+        width: 60px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid var(--bg-color-black);
+        margin: 4% 5%;
+        border-radius: 7px;
+        text-align: center;
+    }
+    
+    /* Formatação icones */
+
+    #tools i{
+        font-size: 3rem;
+        margin-bottom: 2px;
+    }
+
+    /* Formatação dos textos dentro dos box */
+
+    #tools h3{
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin: 0;
+    }
+}
