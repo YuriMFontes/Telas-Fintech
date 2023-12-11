@@ -4,12 +4,12 @@
 @media(max-width: 430px){
 
     /* Formatação do cabeçalho */
-
     #up{
         display: flex;
         align-items: center;
     }
     
+    /* Formatação da div de imagem do usuario */
     #up div{
         width: 15vw;
         height: 15vw;
@@ -19,12 +19,12 @@
         background-color: var(--bg-color-gray);
         margin: 5%;
     }
-    
     #up i{
         font-size: 10vw;
         margin: 15%;
     }
     
+    /* Formatação do nome do usuario */
     #up h2{
         margin: 0;
         font-size: 2rem;
@@ -33,7 +33,6 @@
     }
     
     /* Formatação da div saldo */
-    
     .valor{
         width: 85%;
         height: 55px;
@@ -44,9 +43,9 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+      
         margin-bottom: 35px;
     }
-
     .valor div{
         width: auto;
         padding: 0 5px;
@@ -74,7 +73,6 @@
     }
     
     /* Formatação para div branca */
-
     .tools{
         height: 1600px;
         background-color: var(--bg-color-white);
@@ -82,7 +80,6 @@
     }
     
     /* Formatação do container dentro da div branca */
-
     .container{
         background-color: transparent;
         border-radius: 40px;
@@ -94,7 +91,6 @@
     }
 
     /* Formatação do texto ferramenta */
-
     .ferramenta{
         text-align: center;
         font-size: 1.8rem;
@@ -103,7 +99,6 @@
     }
 
     /* Formatação das box dentro do container */
-
     .box{
         height: 60px;
         width: 60px;
@@ -118,14 +113,12 @@
     }
     
     /* Formatação icones */
-
     .box i{
         font-size: 3rem;
         margin-bottom: 2px;
     }
 
     /* Formatação dos textos dentro dos box */
-
     .tools a{
         font-size: 0.8rem;
         font-weight: bold;
@@ -135,7 +128,6 @@
     }
 
     /* Formatação de recebimentos e despesas */
-
     .reci {
         width: 60%;
         height: 50px;
@@ -154,6 +146,7 @@
         font-size: 3.5vw;
     }
     
+    /* Formatação da div escrita movimentações */
     .move{
         height: 40px;
         position: relative;
@@ -168,6 +161,7 @@
         padding: 2%;
     }
 
+    /* Formatação das divs com icones de alimentações */
     .food{
         width: max-content;
         height: 40px;
@@ -182,6 +176,7 @@
         font-size: 2rem;
         margin: 0;
     }
+
     .food div {
         height: 40px;
         width: 40px;
@@ -192,6 +187,7 @@
         justify-content: center;
     }
     
+    /* Formatação da onde vai ter escito alimento, pix */
     .alimento {
         background-color: black;
         height: 4vw;
