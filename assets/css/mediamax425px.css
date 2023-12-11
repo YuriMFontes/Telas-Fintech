@@ -165,22 +165,21 @@
     
     /* Formatação da div dos alimentos, pix! */
 
-    .food{
-        height: 170px;
+    .food {
+        height: 60px;
         position: relative;
         top: 3%;
         display: flex;
     }
 
-    .food div{
+    .food div {
         height: 40px;
         width: 40px;
         border-radius: 50%;
         border: 2px solid black;
         text-align: center;
-    }
-    
-    .food i{
-        font-size: 0.6rem;
+        position: relative;
+        left: 5%;
+        top: 30%;
     }
 }
