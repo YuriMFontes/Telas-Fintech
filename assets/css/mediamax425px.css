@@ -75,7 +75,7 @@
     
     /* Formatação para div branca */
 
-    #tools{
+    .tools{
         height: 1600px;
         background-color: var(--bg-color-white);
         border-radius: 30px;
@@ -95,9 +95,9 @@
 
     /* Formatação do texto ferramenta */
 
-    #tools h2{
+    .ferramenta{
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.8rem;
         align-items: center;
         padding: 4% 0% 2%;
     }
@@ -119,14 +119,14 @@
     
     /* Formatação icones */
 
-    #tools i{
+    .box i{
         font-size: 3rem;
         margin-bottom: 2px;
     }
 
     /* Formatação dos textos dentro dos box */
 
-    #tools a{
+    .tools a{
         font-size: 0.8rem;
         font-weight: bold;
         margin: 0;
@@ -153,33 +153,49 @@
     .reci h3{
         font-size: 3.5vw;
     }
-
-    /* Formatação do move */
-
+    
     .move{
-        border-top: 2px solid var(--bg-color-black);
-        border-bottom: 2px solid var(--bg-color-black);
+        height: 40px;
         position: relative;
         top: 3%;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
     }
     
-    /* Formatação da div dos alimentos, pix! */
-
-    .food {
-        height: 60px;
-        position: relative;
-        top: 3%;
-        display: flex;
+    .move-h2{
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 2%;
     }
 
+    .food{
+        width: max-content;
+        height: 40px;
+        position: relative;
+        top: 3%;
+        display: block;
+        justify-content: space-around;
+        padding: 7.5%;
+    }
+
+    .icon{
+        font-size: 2rem;
+        margin: 0;
+    }
     .food div {
         height: 40px;
         width: 40px;
         border-radius: 50%;
         border: 2px solid black;
-        text-align: center;
-        position: relative;
-        left: 5%;
-        top: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .alimento {
+        background-color: black;
+        height: 4vw;
+        width: 80vw;
+        margin-left: 10%;
     }
 }
