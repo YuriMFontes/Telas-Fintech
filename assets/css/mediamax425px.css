@@ -75,7 +75,8 @@
     .tools{
         height: auto;
         background-color: var(--bg-color-white);
-        border-radius: 30px;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
     }
     
     /* Formatação do container dentro da div branca */
@@ -158,36 +159,65 @@
         padding: 2%;
     }
 
-    /* Formatação das divs com icones de alimentações */
-    .food{
-        width: max-content;
-        height: 40px;
-        position: relative;
-        display: block;
-        justify-content: space-around;
-        padding: 7.5%;
-    }
-
     .icon{
         font-size: 2rem;
         margin: 0;
     }
+    
+    /* Formatação da div dos alimentos */
+
+    .grider{
+        height: 40px;
+        margin: 2% 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .data{
+        width: auto;
+        padding: 0 5px;
+        bottom: 45%;
+        position: relative;
+    }
+
+    .grider h2{
+        font-size: 4vw;
+        position: relative;
+        right: 5%;
+    }
+
+    .grider h3{
+        font-size: 4vw;
+        position: relative;
+        left: 20%;
+    }
+
+    .perda{
+        color: var(--bg-color-red);
+    }
+
+    .ganho{
+        color: var(--bg-color-green);
+    }
+
+    .grider p{
+        font-size: 1.2rem;
+        margin: 0;
+    }
 
     .food div {
-        height: 40px;
-        width: 40px;
+        height: 10vw;
+        width: 10vw;
         border-radius: 50%;
         border: 2px solid black;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    
-    /* Formatação da onde vai ter escito alimento, pix */
-    .alimento {
-        background-color: black;
-        height: 4vw;
-        width: 80vw;
-        margin-left: 10%;
+
+    .complemento{
+        height: 40px;
     }
+    
 }
