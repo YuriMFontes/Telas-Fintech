@@ -229,12 +229,10 @@
     }
 
     .icones{
-        height: max-content;
+        height: 9vw;
         display: flex;
         justify-content: space-between;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 0;
+        margin: 1% 5% 0 7%;
     }
 
     .nomes{
@@ -242,8 +240,9 @@
         display: flex;
         justify-content: space-between;
         text-align: center;
-        font-size: 3.5vw;
-        margin: 3%;
+        font-size: 3vw;
+        margin-right: 8%;
+        margin-left: 5%;
     }
 
     .ideia{
@@ -254,6 +253,19 @@
         position: relative;
         bottom: 10vw;
         background-color: var(--bg-color-pink);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
+    .not{
+        position: relative;
+        right: 3%;
+    }
+
+    .dicas{
+        position: relative;
+        right: 6%;
+    }
+
 }
