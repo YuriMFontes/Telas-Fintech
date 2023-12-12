@@ -217,7 +217,43 @@
     }
 
     .complemento{
-        height: 40px;
+        height: 0.5rem;
+    }
+    /*-------------------------- FOOTER -----------------------*/
+
+
+    .icones , a{ 
+        text-decoration: none;
+        color: var(--bg-color-black);
+        font-size: 8vw;
+    }
+
+    .icones{
+        height: max-content;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 0;
+    }
+
+    .nomes{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        font-size: 3.5vw;
+        margin: 3%;
+    }
+
+    .ideia{
+        height: 20vw;
+        width: 20vw;
+        border-radius: 50%;
+        border: 2px solid black;
+        position: relative;
+        bottom: 10vw;
+        background-color: var(--bg-color-pink);
     }
     
 }
