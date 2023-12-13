@@ -74,13 +74,12 @@
     /* Formatação para div branca */
     .tools{
         height: auto;
-        background-color: var(--bg-color-white);
         border-top-right-radius: 30px;
         border-top-left-radius: 30px;
     }
     
     /* Formatação do container dentro da div branca */
-    .container{
+    .cont{
         background-color: transparent;
         border-radius: 40px;
         display: flex;
@@ -194,7 +193,7 @@
     }
 
     .perda{
-        color: var(--bg-color-red);
+        color: var(--bs-red);
     }
 
     .ganho{
@@ -267,5 +266,4 @@
         position: relative;
         right: 6%;
     }
-
 }
